@@ -1,0 +1,34 @@
+.blue-line {
+  height: 100px;
+  background-color: lightblue;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.card {
+  height: 400px;
+  width: 300px;
+  background-color: aquamarine;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  text-align: center;
+  border: 4px dashed rosybrown;
+  max-width: calc(25% - 30px);
+}
+
+.card-container {
+  margin-left: 10px;
+  margin-right: 10px;
+  max-width: calc(25% - 30px);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  height: 140px;
+  width: 75%;
+  background: #febe8c;
+  border-radius: 50%;
+}
+
