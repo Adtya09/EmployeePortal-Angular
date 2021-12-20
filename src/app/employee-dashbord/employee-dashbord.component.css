@@ -1,34 +1,39 @@
-.blue-line {
-  height: 100px;
-  background-color: lightblue;
-  margin-left: 10px;
-  margin-right: 10px;
+body {
+  background-color: #ffffff;
 }
 
-.card {
-  height: 400px;
-  width: 300px;
+div.gallery {
+  margin: 25px;
+  border: 1px solid #ccc;
+  width: 380px;
   background-color: aquamarine;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 20px;
-  text-align: center;
-  border: 4px dashed rosybrown;
-  max-width: calc(25% - 30px);
-}
-
-.card-container {
-  margin-left: 10px;
-  margin-right: 10px;
-  max-width: calc(25% - 30px);
-  display: flex;
+  height: auto;
   flex-wrap: wrap;
+  float: left;
 }
 
-img {
-  height: 140px;
-  width: 75%;
-  background: #febe8c;
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 150px;
+  height: auto;
   border-radius: 50%;
+  border: 3px dotted powderblue;
+  margin-left: 115px;
+  margin-top: 10px;
 }
 
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: oblique;
+}
+p {
+  font-family: cursive;
+  font-weight: 500;
+}
